@@ -6,7 +6,7 @@ server:
 # broker config
 spring:
   activemq:
-    broker-url: tcp://172.30.115.236:61616
+    broker-url: tcp://broker-consumers-ss-0.broker-consumers-hdls-svc.bus-broker-cluster.svc.cluster.local:61616
     username: hsGCbwFB
     password: PyG0g7eE
     packages:
