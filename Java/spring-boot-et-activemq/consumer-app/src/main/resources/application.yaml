@@ -1,12 +1,10 @@
 # change application port
 server:
-  port: 8082
-
-
+  port: 8081
 # broker config
 spring:
   activemq:
-    broker-url: tcp://172.30.115.236:8161
+    broker-url: tcp://172.30.115.236:61616
     username: hsGCbwFB
     password: PyG0g7eE
     packages:
