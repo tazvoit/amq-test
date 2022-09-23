@@ -6,11 +6,11 @@ server:
 # broker config
 spring:
   activemq:
-    broker-url: tcp://localhost:61616
-    username: test
-    password: test
+    broker-url: tcp://broker-consumers-wconsj-1-svc-bus-broker-cluster.svc.cluster.local:8161
+    username: hsGCbwFB
+    password: PyG0g7eE
     packages:
       trust-all: true
   artemis:
     embedded:
-      queues: queue-data
+      queues: queue-test
