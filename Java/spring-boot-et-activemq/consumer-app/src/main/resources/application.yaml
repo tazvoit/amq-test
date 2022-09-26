@@ -11,4 +11,4 @@ spring:
       trust-all: true
   artemis:
     embedded:
-      queues: queue-test
+      queues: queue-data
